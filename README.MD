@@ -41,42 +41,30 @@ Este modelo é uma ferramenta auxiliar e não substitui a avaliação de um prof
 Os resultados obtidos pelo modelo devem ser utilizados como referência e não como diagnóstico definitivo.
 
 
-CODIGO PARA representar como esta o diretorio do projeto
+ARQUIVOS DO PROJETO PARA CTRL C + V (utilizar apenas quando tiver com duvida guerreiro)
 ========================================================
-/src
-Diretório principal do código-fonte.
-
-/src/models
-Contém o código relacionado ao treinamento e à inferência do modelo de Machine Learning.
-
-train_model.py — código para treinar o modelo.
-infer_model.py — código para fazer as inferências.
-/src/data
-Contém o dataset e scripts relacionados ao gerenciamento de dados.
-
-dataset.csv — o arquivo de dados.
-preprocess_data.py — script para pré-processamento dos dados.
-/src/ml
-Scripts que envolvem o fluxo de Machine Learning.
-
-model_pipeline.py — pipeline para carregar, treinar, e salvar o modelo.
-evaluate_model.py — código para avaliar a performance do modelo.
-/src/integration
-Integração com outras partes do sistema, como a comunicação entre o chatbot e o modelo.
-
-watson_integration.py — integração do Watson Assistant.
-database_integration.py — integração do banco de dados com o CSV.
-/src/frontend
-Códigos e arquivos relacionados ao front-end.
-
-index.html — arquivo principal do front.
-styles.css — estilos.
-app.js — lógica do front-end.
-/src/database
-Scripts relacionados ao banco de dados.
-
-database_setup.sql — script de configuração do banco de dados.
-insert_data.py — script para inserir dados no banco a partir do CSV.
+    ├── /src
+    │   ├── /data
+    │   │   ├── dataset.csv
+    │   │   └── preprocess_data.py
+    │   ├── /models
+    │   │   ├── train_model.py
+    │   │   └── infer_model.py
+    │   ├── /ml
+    │   │   ├── model_pipeline.py
+    │   │   └── evaluate_model.py
+    │   ├── /integration
+    │   │   ├── watson_integration.py
+    │   │   └── database_integration.py
+    │   ├── /frontend
+    │   │   ├── index.html
+    │   │   ├── styles.css
+    │   │   └── app.js
+    │   └── /database
+    │       ├── database_setup.sql
+    │       └── insert_data.py
+    └── /backend
+        └── server.py
 ========================================================
 
 ORDEM PARA CRIACAO DE CADA COISA
