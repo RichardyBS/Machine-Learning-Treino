@@ -1,20 +1,50 @@
 import pandas as pd
-from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import LabelEncoder
+from nltk.corpus import stopwords
+from nltk.tokenize import word_tokenize
+from nltk.stem import WordNetLemmatizer
+import nltk
+
+# Configuração do caminho para os dados do NLTK
+nltk.data.path.append('C:\\Users\\richa\\AppData\\Roaming\\nltk_data')
+
+# Baixando recursos necessários
+nltk.download('punkt')
+nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('punkt_tab')
+
+def preprocess_text(text):
+    # Tokenização
+    tokens = word_tokenize(text.lower())  # Convertendo para minúsculas para consistência
+    # Remoção de tokens que não são alfabéticos
+    tokens = [word for word in tokens if word.isalpha()]
+    # Remoção de stopwords
+    stop_words = set(stopwords.words('portuguese'))
+    tokens = [word for word in tokens if word not in stop_words]
+    # Lematização
+    lemmatizer = WordNetLemmatizer()
+    tokens = [lemmatizer.lemmatize(word) for word in tokens]
+    return ' '.join(tokens)
 
 def preprocess_data(file_path):
-    data = pd.read_csv(file_path)
+    # Carregar dados
+    df = pd.read_csv(file_path)
+    print(f"Data loaded. Number of rows: {len(df)}")
+    print(f"Columns in the dataframe: {df.columns.tolist()}")
+    
+    # Aplicar pré-processamento
+    if 'Descrição_Problema' in df.columns:
+        df['Descrição_Problema'] = df['Descrição_Problema'].apply(preprocess_text)
+    if 'Sintomas' in df.columns:
+        df['Sintomas'] = df['Sintomas'].apply(preprocess_text)
+    if 'Peças' in df.columns:
+        df['Peças'] = df['Peças'].apply(preprocess_text)
+    if 'Soluções' in df.columns:
+        df['Soluções'] = df['Soluções'].apply(preprocess_text)
+    
+    # Salvar dados pré-processados
+    df.to_csv('src/data/preprocessed_data.csv', index=False)
+    print("Preprocessing completed and data saved to 'src/data/preprocessed_data.csv'.")
 
-    print("Dados brutos:\n", data.head())
-
-    X = data['Descricao_Problema']
-    y = data['pecas'] 
-
-    label_encoder = LabelEncoder()
-    y_encoded = label_encoder.fit_transform(y)
-
-    print("\nClasses codificadas:", label_encoder.classes_)
-
-    X_train, X_test, y_train, y_test = train_test_split(X, y_encoded, test_size=0.2, random_state=42)
-
-    return X_train, X_test, y_train, y_test, label_encoder
+if __name__ == "__main__":
+    preprocess_data('src/data/dataset.csv')

@@ -1,0 +1,124 @@
+Usertext,Categoria,Solucoes,PrecoEstimado
+"Carro liga mas não pega",bateria,"Substituir bateria",150
+"Barulho estranho ao frear",pastilhas freio,"Verificar pastilhas de freio",200
+"Motor superaquecido após alguns minutos",radiador,"Verificar o radiador",350
+"Carro perde potência em subidas",filtro combustível,"Trocar filtro de combustível",180
+"Vibração no volante ao dirigir",balanceamento rodas,"Balancear rodas",100
+"Direção está dura",coluna direção,"Verificar coluna de direção",250
+"Fumaça saindo pelo escapamento",sistema escape,"Checar sistema de escape",300
+"Cheiro de gasolina dentro do carro",sistema combustível,"Verificar sistema de combustível",220
+"Luz de óleo acesa no painel",óleo motor,"Verificar nível de óleo",120
+"Freios ineficazes",sistema freios,"Checar sistema de freios",400
+"Carro engasga ao acelerar",sistema injeção,"Checar sistema de injeção",250
+"Baixo rendimento de combustível",filtro ar,"Trocar filtro de ar",140
+"Dificuldade em engatar marchas",sistema escapamento,"Verificar sistema de escapamento",270
+"Barulho ao acelerar",sistema ignição,"Verificar sistema de ignição",200
+"Luz do motor acesa",suspensão,"Verificar suspensão",300
+"Acelerador não responde",motor,"Verificar o motor",400
+"Dificuldade na suspensão",alinhamento rodas,"Verificar alinhamento das rodas",250
+"Ruído no motor",sistema injeção,"Checar sistema de injeção",260
+"Carro puxa para o lado",sistema suspensão,"Verificar sistema de suspensão",230
+"Desempenho instável",ar condicionado,"Verificar ar condicionado",150
+"Carro treme ao acelerar",painel instrumentos,"Verificar painel de instrumentos",200
+"Problemas no ar condicionado",sistema aceleração,"Verificar sistema de aceleração",180
+"Luzes piscando no painel",brisa,"Checar sistema de brisa",100
+"Carro acelera sozinho",sistema lubrificação,"Verificar sistema de lubrificação",220
+"Rachaduras no vidro",transmissão,"Verificar transmissão",160
+"Vazamentos de óleo",sistema combustível,"Checar sistema de combustível",250
+"Problemas na transmissão",sistema arranque,"Verificar sistema de arranque",350
+"Aumento no consumo de combustível",sistema escape,"Checar sistema de escape",280
+"Barulho ao dar partida",bomba combustível,"Verificar bomba de combustível",150
+"Escapamento barulhento",sistema suspensão,"Checar sistema de suspensão",220
+"Problemas na bomba de combustível",sistema injeção,"Verificar sistema de injeção",240
+"Carro derrapa em curvas",bateria,"Verificar a bateria",170
+"Falha na injeção",sistema arrefecimento,"Verificar sistema de arrefecimento",250
+"Luz da bateria acesa",sistema freios,"Verificar sistema de freios",180
+"Vazamento de refrigerante",acelerador,"Checar o acelerador",190
+"Carro não responde ao freio",embreagem,"Verificar a embreagem",220
+"Acelerador travado",suspensão,"Verificar suspensão",240
+"Problemas na embreagem",sistema direção,"Verificar sistema de direção",250
+"Suspensão danificada",sistema ignição,"Verificar sistema de ignição",300
+"Carro puxa ao acelerar",óleo motor,"Verificar óleo motor",200
+"Ruído ao dirigir",sistema marcha lenta,"Verificar sistema de marcha lenta",180
+"Falha no sistema de ignição",sistema suspensão,"Verificar sistema de suspensão",220
+"Aquecimento do óleo",alternador,"Verificar o alternador",230
+"Marcha lenta instável",sistema iluminação,"Verificar sistema de iluminação",170
+"Tremores ao parar",sistema direção,"Verificar sistema de direção",190
+"Problemas no alternador",sistema elétrico,"Verificar sistema elétrico",300
+"Luzes de freio acesas",sistema escape,"Checar sistema de escape",210
+"Estalos ao virar",sistema controle,"Verificar sistema de controle",160
+"Problemas elétricos",pedal freio,"Verificar pedal de freio",200
+"Carro desliga",catalisador,"Verificar catalisador",350
+"Barulho metálico ao dirigir",eixo,"Checar eixo",180
+"Carro derrapando na chuva",sistema potência,"Verificar sistema de potência",240
+"Problemas com a válvula",sistema vibração,"Checar sistema de vibração",250
+"Acelerador responde lentamente",sistema desaceleração,"Verificar desaceleração",230
+"Fumaça azul pelo escapamento",sistema ab,"Verificar sistema AB",260
+"Problemas com o catalisador",sistema escape,"Verificar sistema de escape",270
+"Ruído no eixo",caixa direção,"Checar caixa de direção",200
+"Perda de potência em subidas",rolamento,"Verificar rolamento",230
+"Carro vibra ao dirigir",sistema aceleração,"Checar sistema de aceleração",250
+"Barulho ao desacelerar",embreagem,"Verificar embreagem",220
+"Luz do airbag acesa",airbag,"Verificar airbag",150
+"Problemas no sistema de exaustão",comando válvulas,"Checar comando de válvulas",300
+"Carro engasga ao acelerar",sistema ignição,"Verificar sistema de ignição",260
+"Problemas na caixa de direção",sistema escape,"Checar sistema de escape",280
+"Ruído no rolamento",sistema refrigeração,"Verificar sistema de refrigeração",190
+"Desempenho irregular",sistema velocidade,"Verificar sistema de velocidade",220
+"Tremores ao soltar a embreagem",sistema alerta,"Verificar sistema de alerta",240
+"Luz do airbag acesa",sistema aceleração,"Verificar sistema de aceleração",150
+"Problemas no comando de válvulas",filtro ar,"Verificar filtro de ar",260
+"Dificuldade ao arrancar",sistema ignição,"Verificar sistema de ignição",230
+"Cheiro queimado",sistema freios,"Verificar sistema de freios",190
+"Desempenho irregular na aceleração",sistema ignição,"Checar sistema de ignição",210
+"Problemas no ar condicionado",compressor ar condicionado,"Verificar compressor de ar condicionado",250
+"Vazamento de combustível",linha combustível,"Checar linha de combustível",200
+"Barulho ao girar volante",caixa direção,"Verificar caixa de direção",220
+"Carro treme ao dirigir alta velocidade",pneus,"Verificar pneus",240
+"Luz de manutenção acesa",sistema escapamento,"Checar sistema de escapamento",250
+"Falha no sistema de arrefecimento",termostato,"Verificar termostato",270
+"Carro puxa para o lado ao frear",freios,"Verificar freios",220
+"Fumaça preta pelo escapamento",injetores,"Checar injetores",280
+"Problemas na direção hidráulica",bomba direção hidráulica,"Verificar bomba direção hidráulica",350
+"Carro mantém marcha engatada",embreagem,"Verificar embreagem",230
+"Ruído constante ao acelerar",polias,"Checar polias",210
+"Carro não engata a marcha",transmissão,"Verificar transmissão",280
+"Barulho de rolamento ao dirigir",rolamento,"Checar rolamento",210
+"Carro solta fumaça ao acelerar",escape,"Verificar sistema de escape",260
+"Problema ao ligar o carro",sistema partida,"Verificar sistema de partida",190
+"Carro está vibrando ao parar",freios,"Checar sistema de freios",200
+"Ruído no motor ao ligar",motor,"Verificar motor",250
+"Carro derrapando ao acelerar",pneus,"Checar pneus",230
+"Barulho ao dirigir em alta velocidade",suspensão,"Verificar suspensão",270
+"Problemas no sistema de combustível",injeção,"Verificar sistema de injeção",240
+"Carro está perdendo potência",motor,"Verificar motor",300
+"Vibração no volante ao frear",freios,"Checar sistema de freios",210
+"Problemas com a bomba de óleo",bomba óleo,"Verificar bomba de óleo",250
+"Carro faz barulho ao acelerar",sistema ignição,"Checar sistema de ignição",220
+"Falha no sistema de ar condicionado",ar condicionado,"Checar sistema de ar condicionado",260
+"Carro puxa para o lado ao frear",suspensão,"Verificar suspensão",240
+"Barulho ao girar o volante",direção,"Checar direção",230
+"Problemas na caixa de direção",direção,"Verificar caixa de direção",250
+"Carro não segura a marcha",embreagem,"Verificar embreagem",270
+"Fumaça no escapamento ao acelerar",sistema escape,"Verificar sistema de escape",280
+"Ruído constante ao dirigir",motor,"Checar motor",240
+"Carro não está acelerando corretamente",acelerador,"Verificar acelerador",200
+"Problemas no sistema de transmissão",transmissão,"Verificar transmissão",290
+"Barulho de estalo ao dirigir",direção,"Checar sistema de direção",210
+"Carro não freia adequadamente",freios,"Verificar sistema de freios",250
+"Carro treme ao dirigir em alta velocidade",suspensão,"Checar suspensão",260
+"Vazamento no radiador",radiador,"Verificar radiador",270
+"Problemas no sistema de iluminação",iluminação,"Checar sistema de iluminação",200
+"Carro faz barulho ao mudar de marcha",transmissão,"Verificar transmissão",230
+"Barulho ao usar o ar condicionado",ar condicionado,"Checar ar condicionado",220
+"Problemas com a bomba de combustível",bomba combustível,"Verificar bomba de combustível",260
+"Carro não está respondendo bem ao acelerar",motor,"Checar motor",270
+"Barulho no escapamento ao frear",escape,"Verificar sistema de escape",240
+"Carro puxa ao acelerar",suspensão,"Checar suspensão",250
+"Problemas com o alternador",alternador,"Verificar alternador",300
+"Carro está soltando fumaça azul",escape,"Verificar sistema de escape",250
+"Barulho metálico ao girar",direção,"Checar direção",220
+"Problemas na embreagem",embreagem,"Verificar embreagem",270
+"Carro está vibrando ao dirigir",suspensão,"Verificar suspensão",230
+"Vazamento de óleo pelo motor",motor,"Verificar motor",240
+"Carro não está acelerando suavemente",acelerador,"Checar acelerador",210

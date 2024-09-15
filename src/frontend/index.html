@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Assistente de Diagnóstico Automotivo</title>
+    <title>Diagnóstico Automotivo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1>Assistente de Diagnóstico Automotivo</h1>
-        <div id="chatWindow" class="chat-window"></div>
-        <textarea id="userInput" placeholder="Descreva o problema do veículo..."></textarea>
-        <button id="sendButton">Enviar</button>
-    </div>
+    <h1>Diagnóstico Automotivo</h1>
+    <form id="diagnose-form">
+        <input type="text" id="user-input" placeholder="Descreva o problema do carro" required>
+        <button type="submit">Enviar</button>
+    </form>
+    <p id="response"></p>
+
     <script src="app.js"></script>
 </body>
 </html>

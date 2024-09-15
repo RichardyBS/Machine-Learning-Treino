@@ -1,28 +1,31 @@
-// src/frontend/app.js
-
-async function sendMessageToBackend(message) {
+document.getElementById('diagnose-form').addEventListener('submit', async function(event) {
+    event.preventDefault();
+    
+    const userInput = document.getElementById('user-input').value;
+    
     try {
-        const response = await fetch('http://localhost:5000/diagnose', { // Atualize para o endpoint correto
+        const response = await fetch('http://127.0.0.1:5000/diagnose', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify({ message: message })
+            body: JSON.stringify({ message: userInput })
         });
-        const data = await response.json();
-        return data.response;
-    } catch (error) {
-        console.error('Erro ao enviar mensagem:', error);
-        return 'Desculpe, ocorreu um erro.';
-    }
-}
 
-document.getElementById('sendButton').addEventListener('click', async () => {
-    const userMessage = document.getElementById('userInput').value.trim();
-    if (userMessage) {
-        document.getElementById('chatWindow').innerHTML += `<div><strong>Você:</strong> ${userMessage}</div>`;
-        const assistantResponse = await sendMessageToBackend(userMessage);
-        document.getElementById('chatWindow').innerHTML += `<div><strong>Assistente:</strong> ${assistantResponse}</div>`;
-        document.getElementById('userInput').value = '';
+        if (!response.ok) {
+            throw new Error('Network response was not ok.');
+        }
+
+        const data = await response.json();
+
+        // Mostrar a resposta
+        if (data && data.problem && data.cost) {
+            document.getElementById('response').innerText = `${data.problem}\n${data.cost}`;
+        } else {
+            document.getElementById('response').innerText = 'Resposta não compreendida.';
+        }
+    } catch (error) {
+        console.error('Erro:', error);
+        document.getElementById('response').innerText = 'Ocorreu um erro ao processar a solicitação.';
     }
 });
