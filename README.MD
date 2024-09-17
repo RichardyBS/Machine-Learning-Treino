@@ -45,6 +45,10 @@ Integrassao com o Watson: de Longe a unica coisa que eu realmente nao consegui f
 
 
 
+Grupo AutoCall - 1TDSPW
 
+Ruan Lima Silva - 558775
 
+Richardy Borges - -557883
 
+Henrique Izzi - 555413
