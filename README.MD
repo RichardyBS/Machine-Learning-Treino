@@ -44,6 +44,15 @@ Conexao com a Api: A principio fiquei sem saber como faria para que meu modelo c
 Integrassao com o Watson: de Longe a unica coisa que eu realmente nao consegui fazer foi conectar meu projeto ao Watson por nao ter muito conhecimento eu acabei ficando preso tentei utilizar o Postman para fazer testes mais sem sucesso.
 
 
+## NPM INSTALL DO PROJETO
+
+pip install flask-cors
+pip install flask
+npm install axios
+npm install para baixar o node_modules
+
+
+
 
 Grupo AutoCall - 1TDSPW
 
