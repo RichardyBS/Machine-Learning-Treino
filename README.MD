@@ -26,9 +26,10 @@ Objetivo: Configure o banco de dados para armazenar resultados das inferências.
 Objetivo: Conecte a interface do usuário para que o chatbot esteja acessível.
 
 Ordem que estou seguindo para chegar ao final da entrega da porto
+
 Dados → 2. Modelo → 3. Inferência → 4. Integração → 5. Banco de Dados → 6. Front-End
 
-
+o arquivo dataset.csv possui 124 dados (contando com o nome de cada tabela)
 
 No Projeto utilizei o Gemini para realizar um diagnostico mais preciso
 
