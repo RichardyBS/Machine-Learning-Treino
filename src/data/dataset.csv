@@ -1,124 +1,312 @@
-Usertext,Categoria,Solucoes,PrecoEstimado
-"Carro liga mas não pega",bateria,"Substituir bateria",150
-"Barulho estranho ao frear",pastilhas freio,"Verificar pastilhas de freio",200
-"Motor superaquecido após alguns minutos",radiador,"Verificar o radiador",350
-"Carro perde potência em subidas",filtro combustível,"Trocar filtro de combustível",180
-"Vibração no volante ao dirigir",balanceamento rodas,"Balancear rodas",100
-"Direção está dura",coluna direção,"Verificar coluna de direção",250
-"Fumaça saindo pelo escapamento",sistema escape,"Checar sistema de escape",300
-"Cheiro de gasolina dentro do carro",sistema combustível,"Verificar sistema de combustível",220
-"Luz de óleo acesa no painel",óleo motor,"Verificar nível de óleo",120
-"Freios ineficazes",sistema freios,"Checar sistema de freios",400
-"Carro engasga ao acelerar",sistema injeção,"Checar sistema de injeção",250
-"Baixo rendimento de combustível",filtro ar,"Trocar filtro de ar",140
-"Dificuldade em engatar marchas",sistema escapamento,"Verificar sistema de escapamento",270
-"Barulho ao acelerar",sistema ignição,"Verificar sistema de ignição",200
-"Luz do motor acesa",suspensão,"Verificar suspensão",300
-"Acelerador não responde",motor,"Verificar o motor",400
-"Dificuldade na suspensão",alinhamento rodas,"Verificar alinhamento das rodas",250
-"Ruído no motor",sistema injeção,"Checar sistema de injeção",260
-"Carro puxa para o lado",sistema suspensão,"Verificar sistema de suspensão",230
-"Desempenho instável",ar condicionado,"Verificar ar condicionado",150
-"Carro treme ao acelerar",painel instrumentos,"Verificar painel de instrumentos",200
-"Problemas no ar condicionado",sistema aceleração,"Verificar sistema de aceleração",180
-"Luzes piscando no painel",brisa,"Checar sistema de brisa",100
-"Carro acelera sozinho",sistema lubrificação,"Verificar sistema de lubrificação",220
-"Rachaduras no vidro",transmissão,"Verificar transmissão",160
-"Vazamentos de óleo",sistema combustível,"Checar sistema de combustível",250
-"Problemas na transmissão",sistema arranque,"Verificar sistema de arranque",350
-"Aumento no consumo de combustível",sistema escape,"Checar sistema de escape",280
-"Barulho ao dar partida",bomba combustível,"Verificar bomba de combustível",150
-"Escapamento barulhento",sistema suspensão,"Checar sistema de suspensão",220
-"Problemas na bomba de combustível",sistema injeção,"Verificar sistema de injeção",240
-"Carro derrapa em curvas",bateria,"Verificar a bateria",170
-"Falha na injeção",sistema arrefecimento,"Verificar sistema de arrefecimento",250
-"Luz da bateria acesa",sistema freios,"Verificar sistema de freios",180
-"Vazamento de refrigerante",acelerador,"Checar o acelerador",190
-"Carro não responde ao freio",embreagem,"Verificar a embreagem",220
-"Acelerador travado",suspensão,"Verificar suspensão",240
-"Problemas na embreagem",sistema direção,"Verificar sistema de direção",250
-"Suspensão danificada",sistema ignição,"Verificar sistema de ignição",300
-"Carro puxa ao acelerar",óleo motor,"Verificar óleo motor",200
-"Ruído ao dirigir",sistema marcha lenta,"Verificar sistema de marcha lenta",180
-"Falha no sistema de ignição",sistema suspensão,"Verificar sistema de suspensão",220
-"Aquecimento do óleo",alternador,"Verificar o alternador",230
-"Marcha lenta instável",sistema iluminação,"Verificar sistema de iluminação",170
-"Tremores ao parar",sistema direção,"Verificar sistema de direção",190
-"Problemas no alternador",sistema elétrico,"Verificar sistema elétrico",300
-"Luzes de freio acesas",sistema escape,"Checar sistema de escape",210
-"Estalos ao virar",sistema controle,"Verificar sistema de controle",160
-"Problemas elétricos",pedal freio,"Verificar pedal de freio",200
-"Carro desliga",catalisador,"Verificar catalisador",350
-"Barulho metálico ao dirigir",eixo,"Checar eixo",180
-"Carro derrapando na chuva",sistema potência,"Verificar sistema de potência",240
-"Problemas com a válvula",sistema vibração,"Checar sistema de vibração",250
-"Acelerador responde lentamente",sistema desaceleração,"Verificar desaceleração",230
-"Fumaça azul pelo escapamento",sistema ab,"Verificar sistema AB",260
-"Problemas com o catalisador",sistema escape,"Verificar sistema de escape",270
-"Ruído no eixo",caixa direção,"Checar caixa de direção",200
-"Perda de potência em subidas",rolamento,"Verificar rolamento",230
-"Carro vibra ao dirigir",sistema aceleração,"Checar sistema de aceleração",250
-"Barulho ao desacelerar",embreagem,"Verificar embreagem",220
-"Luz do airbag acesa",airbag,"Verificar airbag",150
-"Problemas no sistema de exaustão",comando válvulas,"Checar comando de válvulas",300
-"Carro engasga ao acelerar",sistema ignição,"Verificar sistema de ignição",260
-"Problemas na caixa de direção",sistema escape,"Checar sistema de escape",280
-"Ruído no rolamento",sistema refrigeração,"Verificar sistema de refrigeração",190
-"Desempenho irregular",sistema velocidade,"Verificar sistema de velocidade",220
-"Tremores ao soltar a embreagem",sistema alerta,"Verificar sistema de alerta",240
-"Luz do airbag acesa",sistema aceleração,"Verificar sistema de aceleração",150
-"Problemas no comando de válvulas",filtro ar,"Verificar filtro de ar",260
-"Dificuldade ao arrancar",sistema ignição,"Verificar sistema de ignição",230
-"Cheiro queimado",sistema freios,"Verificar sistema de freios",190
-"Desempenho irregular na aceleração",sistema ignição,"Checar sistema de ignição",210
-"Problemas no ar condicionado",compressor ar condicionado,"Verificar compressor de ar condicionado",250
-"Vazamento de combustível",linha combustível,"Checar linha de combustível",200
-"Barulho ao girar volante",caixa direção,"Verificar caixa de direção",220
-"Carro treme ao dirigir alta velocidade",pneus,"Verificar pneus",240
-"Luz de manutenção acesa",sistema escapamento,"Checar sistema de escapamento",250
-"Falha no sistema de arrefecimento",termostato,"Verificar termostato",270
-"Carro puxa para o lado ao frear",freios,"Verificar freios",220
-"Fumaça preta pelo escapamento",injetores,"Checar injetores",280
-"Problemas na direção hidráulica",bomba direção hidráulica,"Verificar bomba direção hidráulica",350
-"Carro mantém marcha engatada",embreagem,"Verificar embreagem",230
-"Ruído constante ao acelerar",polias,"Checar polias",210
-"Carro não engata a marcha",transmissão,"Verificar transmissão",280
-"Barulho de rolamento ao dirigir",rolamento,"Checar rolamento",210
-"Carro solta fumaça ao acelerar",escape,"Verificar sistema de escape",260
-"Problema ao ligar o carro",sistema partida,"Verificar sistema de partida",190
-"Carro está vibrando ao parar",freios,"Checar sistema de freios",200
-"Ruído no motor ao ligar",motor,"Verificar motor",250
-"Carro derrapando ao acelerar",pneus,"Checar pneus",230
-"Barulho ao dirigir em alta velocidade",suspensão,"Verificar suspensão",270
-"Problemas no sistema de combustível",injeção,"Verificar sistema de injeção",240
-"Carro está perdendo potência",motor,"Verificar motor",300
-"Vibração no volante ao frear",freios,"Checar sistema de freios",210
-"Problemas com a bomba de óleo",bomba óleo,"Verificar bomba de óleo",250
-"Carro faz barulho ao acelerar",sistema ignição,"Checar sistema de ignição",220
-"Falha no sistema de ar condicionado",ar condicionado,"Checar sistema de ar condicionado",260
-"Carro puxa para o lado ao frear",suspensão,"Verificar suspensão",240
-"Barulho ao girar o volante",direção,"Checar direção",230
-"Problemas na caixa de direção",direção,"Verificar caixa de direção",250
-"Carro não segura a marcha",embreagem,"Verificar embreagem",270
-"Fumaça no escapamento ao acelerar",sistema escape,"Verificar sistema de escape",280
-"Ruído constante ao dirigir",motor,"Checar motor",240
-"Carro não está acelerando corretamente",acelerador,"Verificar acelerador",200
-"Problemas no sistema de transmissão",transmissão,"Verificar transmissão",290
-"Barulho de estalo ao dirigir",direção,"Checar sistema de direção",210
-"Carro não freia adequadamente",freios,"Verificar sistema de freios",250
-"Carro treme ao dirigir em alta velocidade",suspensão,"Checar suspensão",260
-"Vazamento no radiador",radiador,"Verificar radiador",270
-"Problemas no sistema de iluminação",iluminação,"Checar sistema de iluminação",200
-"Carro faz barulho ao mudar de marcha",transmissão,"Verificar transmissão",230
-"Barulho ao usar o ar condicionado",ar condicionado,"Checar ar condicionado",220
-"Problemas com a bomba de combustível",bomba combustível,"Verificar bomba de combustível",260
-"Carro não está respondendo bem ao acelerar",motor,"Checar motor",270
-"Barulho no escapamento ao frear",escape,"Verificar sistema de escape",240
-"Carro puxa ao acelerar",suspensão,"Checar suspensão",250
-"Problemas com o alternador",alternador,"Verificar alternador",300
-"Carro está soltando fumaça azul",escape,"Verificar sistema de escape",250
-"Barulho metálico ao girar",direção,"Checar direção",220
-"Problemas na embreagem",embreagem,"Verificar embreagem",270
-"Carro está vibrando ao dirigir",suspensão,"Verificar suspensão",230
-"Vazamento de óleo pelo motor",motor,"Verificar motor",240
-"Carro não está acelerando suavemente",acelerador,"Checar acelerador",210
+Pergunta,Solucoes,PrecoEstimado,Categoria
+"Meu carro não está pegando","Quando você gira a chave, o que acontece? O motor gira ou não faz nada?",0,Diagnóstico
+"Ele gira mas não pega","O carro está fazendo algum barulho diferente quando tenta dar partida?",0,Diagnóstico
+"Sim, parece que está meio fraco o barulho","As luzes do painel acendem normalmente quando você liga a chave?",0,Diagnóstico
+"Sim, as luzes acendem normal","Há quanto tempo você está percebendo esse problema?",0,Diagnóstico
+"Começou essa semana","Você chegou a verificar a bateria ou deixou o carro parado por muito tempo?",0,Diagnóstico
+"A bateria está boa, testei ontem","Pelo comportamento descrito, pode ser problema no motor de arranque ou no sistema de alimentação de combustível. Vamos fazer um diagnóstico completo.",600,Motor
+
+"O carro não pega de primeira","Precisa tentar várias vezes até pegar?",0,Diagnóstico
+"Sim, às vezes demora uns 3 minutos","Quando pega, o carro funciona normalmente ou continua falhando?",0,Diagnóstico
+"Depois que pega funciona normal","Você percebe se tem cheiro de gasolina forte quando tenta dar partida?",0,Diagnóstico
+"Não sinto cheiro de gasolina","Provável problema na bomba de combustível ou no sistema de partida a frio. Necessário verificar pressão da bomba e bicos injetores.",800,Motor
+
+"Carro não pega pela manhã","Ele não pega apenas pela manhã ou em outros momentos também?",0,Diagnóstico
+"Só de manhã quando está frio","Quando você gira a chave, o motor gira normalmente?",0,Diagnóstico
+"Gira normal, mas demora pra pegar","Você ouve o barulho da bomba de combustível quando liga a chave?",0,Diagnóstico
+"Sim, ouço a bomba ligando","Problema no sistema de partida a frio. Necessário verificar bicos injetores e sensor de temperatura.",450,Motor
+
+"O carro morreu e não pegou mais","O carro morreu de repente enquanto estava andando?",0,Diagnóstico
+"Sim, apagou tudo de repente","As luzes do painel chegaram a piscar antes de morrer?",0,Diagnóstico
+"Sim, piscou tudo no painel","Você tentou dar partida depois? O que aconteceu?",0,Diagnóstico
+"Tentei mas não faz nada","Problema no sistema elétrico. Pode ser alternador ou problema nas conexões da bateria. Necessário diagnóstico completo do sistema elétrico.",900,Elétrica
+
+"Carro está demorando pra pegar","Você percebe se o problema é pior quando o motor está quente ou frio?",0,Diagnóstico
+"É pior quando está quente","Quando foi a última vez que fez manutenção nas velas?",0,Diagnóstico
+"Faz mais de 2 anos","O carro apresenta alguma oscilação na marcha lenta?",0,Diagnóstico
+"Sim, às vezes fica oscilando","Necessário fazer troca das velas, verificar bobinas e cabos de ignição. A dificuldade de partida está relacionada ao desgaste desses componentes.",550,Motor
+
+"O carro não pega após abastecer","Isso começou depois de qual abastecimento?",0,Diagnóstico
+"Depois que abasteci ontem","Você abasteceu em um posto diferente do habitual?",0,Diagnóstico
+"Sim, era um posto novo","O carro chegou a funcionar após o abastecimento?",0,Diagnóstico
+"Funcionou, mas depois não pegou mais","Possível combustível contaminado. Será necessário drenar o tanque, trocar filtro de combustível e limpar o sistema de injeção.",750,Combustível
+
+"Minha bateria descarregou","Quando foi a última vez que você trocou a bateria do carro?",0,Diagnóstico
+"Faz uns 3 anos","As luzes do painel estão acendendo quando você tenta ligar?",0,Diagnóstico
+"Acendem bem fracas","O carro ficou parado por muito tempo?",0,Diagnóstico
+"Não, uso todo dia","Será necessário testar a bateria e o alternador. Pela idade da bateria, provavelmente precisará ser substituída.",450,Elétrica
+
+"O carro não está pegando nem no tranco","Quando você gira a chave, faz algum barulho?",0,Diagnóstico
+"Só faz um clique","As luzes do painel chegam a acender?",0,Diagnóstico
+"Não acende nada","Bateria completamente descarregada. Vamos testar para ver se recarrega ou precisa ser substituída. Também verificaremos o alternador.",400,Elétrica
+
+"As luzes do painel estão fracas","Você percebeu isso acontecendo gradualmente ou foi de repente?",0,Diagnóstico
+"Foi ficando fraco aos poucos","O farol está mais fraco que o normal também?",0,Diagnóstico
+"Sim, tudo elétrico está fraco","O carro tem apresentado dificuldade para dar partida?",0,Diagnóstico
+"Sim, principalmente de manhã","Alternador pode não estar carregando a bateria adequadamente. Necessário teste no sistema de carga e possível troca da bateria.",650,Elétrica
+
+"A bateria descarrega quando deixo o carro parado","Quanto tempo o carro fica parado até a bateria descarregar?",0,Diagnóstico
+"Uns 2 ou 3 dias já descarrega","Você percebeu se algum equipamento fica ligado com o carro desligado?",0,Diagnóstico
+"Não, desligo tudo","Já verificou se as luzes internas apagam quando fecha o carro?",0,Diagnóstico
+"Vou verificar","Pode haver um consumo parasita de energia. Necessário verificar o sistema elétrico e possível curto-circuito.",350,Elétrica
+
+"O carro não pega após lavar o motor","O carro chegou a funcionar depois da lavagem?",0,Diagnóstico
+"Não, já não pegou mais","As luzes do painel acendem normalmente?",0,Diagnóstico
+"Não acende nada","Possível curto-circuito devido à água na parte elétrica. Necessário secar componentes e verificar conexões.",300,Elétrica
+
+"A luz da bateria acende no painel","Em que momento a luz acende? Com o carro ligado ou ao dar partida?",0,Diagnóstico
+"Fica acesa com o carro andando","O carro apresenta alguma oscilação nas luzes do painel?",0,Diagnóstico
+"Sim, às vezes piscam todas","Problema no alternador. Ele não está carregando a bateria corretamente. Necessário teste e possível substituição.",800,Elétrica
+
+"O som do carro descarrega a bateria","Você instalou algum equipamento de som recentemente?",0,Diagnóstico
+"Sim, faz um mês","A bateria atual é a original do carro?",0,Diagnóstico
+"Sim, nunca troquei","Necessário instalar bateria de maior capacidade e verificar se o alternador suporta a demanda do som. Possível necessidade de upgrade do sistema elétrico.",950,Elétrica
+
+"O carro está morrendo sozinho","Em que situações ele costuma morrer?",0,Diagnóstico
+"Quando ligo o ar condicionado","As luzes do painel piscam quando isso acontece?",0,Diagnóstico
+"Sim, tudo pisca antes de morrer","Bateria fraca ou alternador não está suportando a carga. Necessário teste completo do sistema elétrico.",700,Elétrica
+
+"Preciso dar tranco todo dia","O carro fica muito tempo parado?",0,Diagnóstico
+"Não, uso todo dia","Quando você liga o carro, o motor gira fraco?",0,Diagnóstico
+"Sim, bem fraquinho","Bateria no fim da vida útil. Recomendamos a troca imediata para evitar danos ao motor de arranque.",400,Elétrica
+
+"Estou vendo óleo no chão da garagem","Você consegue identificar a cor do óleo? É escuro ou avermelhado?",0,Diagnóstico
+"É um óleo escuro","O vazamento aparece logo após estacionar ou demora um tempo?",0,Diagnóstico
+"Aparece depois de um tempo parado","Você consegue ver aproximadamente em qual região do carro está pingando?",0,Diagnóstico
+"Parece que é mais na frente","Vazamento pode ser do retentor do cabeçote ou junta do cárter. Necessário limpeza do motor para identificar o ponto exato.",450,Motor
+
+"Meu carro está gastando muito óleo","Quanto óleo você precisa completar e com qual frequência?",0,Diagnóstico
+"Todo mês coloco 1 litro","Você percebe fumaça azul saindo do escapamento?",0,Diagnóstico
+"Sim, principalmente quando acelero","O motor faz algum barulho diferente?",0,Diagnóstico
+"Às vezes faz um barulho de batida","Possível problema nos anéis de segmento ou guias de válvula. Será necessário abrir o motor para avaliação completa.",2500,Motor
+
+"Tem óleo vazando próximo ao câmbio","O vazamento acontece com o carro em movimento ou parado?",0,Diagnóstico
+"Vejo mais quando está parado","O óleo tem cheiro de queimado?",0,Diagnóstico
+"Sim, cheira forte","Você percebeu alguma mancha na embreagem?",0,Diagnóstico
+"Sim, às vezes patina um pouco","Retentor do câmbio danificado. Necessário trocar retentor e verificar kit de embreagem.",900,Transmissão
+
+"O motor está todo sujo de óleo","Você notou quando começou a sujeira?",0,Diagnóstico
+"Percebi na última lavagem","Está consumindo mais óleo que o normal?",0,Diagnóstico
+"Sim, preciso completar sempre","O carro faz algum barulho diferente?",0,Diagnóstico
+"Não, funciona normal","Vazamento na tampa de válvulas ou junta do cabeçote. Necessário trocar juntas e retentores.",600,Motor
+
+"Tem um cheiro forte de óleo queimado","Em que momento você sente mais o cheiro?",0,Diagnóstico
+"Depois que o carro esquenta","Você vê fumaça saindo do capô?",0,Diagnóstico
+"Às vezes sai uma fumacinha","O óleo está pingando em alguma parte quente do motor. Necessário limpeza e identificação do ponto de vazamento.",350,Motor
+
+"O óleo está misturando com água","Você percebeu isso ao verificar o óleo?",0,Diagnóstico
+"Sim, está cor de café com leite","O carro está esquentando mais que o normal?",0,Diagnóstico
+"Sim, temperatura sobe às vezes","Junta do cabeçote queimada. Necessário retífica do cabeçote e troca da junta.",1800,Motor
+
+"Vazamento de óleo na direção hidráulica","O volante está mais pesado?",0,Diagnóstico
+"Sim, principalmente nas curvas","Você ouve algum barulho ao girar o volante?",0,Diagnóstico
+"Faz um zumbido","Retentor da bomba da direção hidráulica com vazamento. Necessário trocar bomba ou retentores.",750,Direção
+
+"Óleo pingando no escapamento","Você sente cheiro de óleo queimado?",0,Diagnóstico
+"Sim, e sai uma fumaça","A fumaça é mais intensa quando acelera?",0,Diagnóstico
+"Sim, sai bastante fumaça azul","Vazamento nos retentores de válvula ou anéis de segmento gastos. Necessário reparo do motor.",2000,Motor
+
+"Manchas de óleo nos pneus","As manchas aparecem em qual lado?",0,Diagnóstico
+"Mais do lado esquerdo","Você percebeu algum barulho na suspensão?",0,Diagnóstico
+"Sim, quando passo em lombada","Amortecedor com vazamento. Necessário trocar o par de amortecedores.",600,Suspensão
+
+"Óleo vazando embaixo do motor","O vazamento é constante ou só quando liga?",0,Diagnóstico
+"É mais quando está ligado","Você consegue ver se é na parte da frente ou atrás do motor?",0,Diagnóstico
+"Parece que é embaixo","Junta do cárter danificada ou parafusos soltos. Necessário trocar junta e verificar aperto.",400,Motor
+
+"Meu motor está batendo","Em que momento você escuta essa batida?",0,Diagnóstico
+"Quando acelero o carro","O barulho aumenta com a rotação do motor?",0,Diagnóstico
+"Sim, quanto mais acelero mais barulho","O carro perde força quando faz o barulho?",0,Diagnóstico
+"Sim, parece que perde potência","Possível problema nas bronzinas do motor. Necessário abrir o motor para verificação e possível troca de bronzinas.",2800,Motor
+
+"Tem um barulho de batida no motor frio","O barulho diminui quando o motor esquenta?",0,Diagnóstico
+"Sim, depois some o barulho","Quanto tempo precisa ficar ligado para o barulho sumir?",0,Diagnóstico
+"Uns 5 minutos mais ou menos","Folga no tuchos hidráulicos. Necessário regulagem ou troca dos tuchos.",800,Motor
+
+"Motor fazendo barulho de chocalho","O barulho é constante ou em algum momento específico?",0,Diagnóstico
+"É mais forte na marcha lenta","Já verificou o nível do óleo?",0,Diagnóstico
+"Está no nível, troquei há pouco","Corrente de comando com folga. Necessário tensionar ou trocar a corrente e os tensionadores.",1200,Motor
+
+"Barulho de corrente no motor","O barulho é mais forte quando liga o carro?",0,Diagnóstico
+"Sim, na partida é pior","Você percebe alguma oscilação no funcionamento?",0,Diagnóstico
+"Às vezes falha um pouco","Corrente de comando desgastada. Necessário troca da corrente, tensionadores e guias.",1500,Motor
+
+"Motor roncando muito alto","O ronco começou de repente ou foi gradual?",0,Diagnóstico
+"Começou depois de uma batida","Você notou algum outro problema além do barulho?",0,Diagnóstico
+"O carro está mais lento","Possível problema no coletor ou escapamento danificado. Necessário verificar sistema completo.",600,Escapamento
+
+"Barulho de máquina de lavar no motor","O barulho muda quando você gira o volante?",0,Diagnóstico
+"Sim, fica mais forte nas curvas","A direção está mais pesada que o normal?",0,Diagnóstico
+"Sim, um pouco pesada","Bomba da direção hidráulica com defeito. Necessário troca da bomba.",900,Direção
+
+"Motor fazendo tec-tec","Em que rotação você escuta mais o barulho?",0,Diagnóstico
+"Em baixa rotação é pior","O barulho aumenta quando acelera?",0,Diagnóstico
+"Não, é mais na lenta mesmo","Possível problema nos tuchos ou válvulas. Necessário regulagem de válvulas.",500,Motor
+
+"Barulho de panela velha no motor","O barulho é mais forte com o carro parado ou andando?",0,Diagnóstico
+"Com o carro parado é pior","Já verificou o óleo recentemente?",0,Diagnóstico
+"Faz tempo que não verifico","Nível de óleo baixo causando batida nos pistões. Necessário verificar consumo de óleo e possível reparo.",2000,Motor
+
+"Motor fazendo barulho de helicóptero","O barulho vem da parte de cima do motor?",0,Diagnóstico
+"Sim, parece que é em cima","Quando foi a última troca de óleo?",0,Diagnóstico
+"Faz uns 15 mil km","Comando de válvulas com desgaste. Necessário troca do comando e tuchos.",1800,Motor
+
+"Barulho de estalos no motor","O barulho acontece com o carro quente ou frio?",0,Diagnóstico
+"Mais quando está quente","Você percebe perda de potência?",0,Diagnóstico
+"Sim, não puxa como antes","Possível pré-ignição ou detonação. Necessário verificar tempo do motor e qualidade do combustível.",400,Motor
+
+"Motor faz barulho de martelada","O barulho é regular ou irregular?",0,Diagnóstico
+"É uma batida irregular","Em que rotação você mais percebe?",0,Diagnóstico
+"Em qualquer rotação","Biela batendo. Necessário abrir o motor com urgência para evitar danos maiores.",3500,Motor
+
+"Barulho de coisa solta no motor","O barulho parece que vem de qual lado?",0,Diagnóstico
+"Do lado da correia","Acontece sempre ou só às vezes?",0,Diagnóstico
+"Sempre que ligo o carro","Tensionador da correia defeituoso. Necessário troca do tensionador e correias.",450,Motor
+
+"Meu carro está esquentando muito","Em que momento você percebe que esquenta mais?",0,Diagnóstico
+"No trânsito parado esquenta mais","O ponteiro de temperatura chega a passar do meio?",0,Diagnóstico
+"Sim, vai quase no vermelho","A ventoinha está ligando normalmente?",0,Diagnóstico
+"Acho que não liga","Problema na ventoinha do radiador. Necessário trocar motor da ventoinha e verificar sensor de temperatura.",450,Arrefecimento
+
+"Saindo fumaça do capô","A fumaça tem algum cheiro específico?",0,Diagnóstico
+"Cheira doce","Você percebeu se está perdendo água do radiador?",0,Diagnóstico
+"Sim, sempre preciso completar","Mangueira do radiador rompida ou vazamento na junta do cabeçote. Necessário teste de pressão no sistema.",1800,Arrefecimento
+
+"Luz do painel de temperatura acende","Em que momento a luz acende?",0,Diagnóstico
+"Depois de um tempo rodando","O marcador de temperatura está funcionando?",0,Diagnóstico
+"Sim, mostra temperatura alta","Você verificou o nível do líquido de arrefecimento?",0,Diagnóstico
+"Está sempre baixo","Possível vazamento interno. Necessário teste de pressão e verificação da junta do cabeçote.",2200,Motor
+
+"Carro perdendo água","Você vê água pingando embaixo do carro?",0,Diagnóstico
+"Sim, principalmente quando parado","A água que pinga é colorida ou transparente?",0,Diagnóstico
+"É meio esverdeada","Vazamento no radiador ou mangueiras. Necessário teste de pressão para localizar o ponto.",600,Arrefecimento
+
+"Motor esquenta na estrada","Em que velocidade começa a esquentar?",0,Diagnóstico
+"Acima de 100 por hora","O ar condicionado influencia na temperatura?",0,Diagnóstico
+"Sim, esquenta mais com o ar ligado","Radiador entupido ou com baixa eficiência. Necessário limpeza ou troca do radiador.",900,Arrefecimento
+
+"Reservatório de água borbulhando","Isso acontece com o motor quente ou frio?",0,Diagnóstico
+"Quando está bem quente","Sai fumaça pelo escapamento?",0,Diagnóstico
+"Sim, uma fumaça branca","Junta do cabeçote queimada. Necessário retífica do cabeçote e troca da junta.",2500,Motor
+
+"Tampa do radiador expelindo água","Em que momento isso acontece?",0,Diagnóstico
+"Quando o carro está quente","A tampa do radiador está original?",0,Diagnóstico
+"Sim, nunca troquei","Válvula da tampa do radiador com defeito ou pressão excessiva no sistema. Verificar junta e tampa.",300,Arrefecimento
+
+"Motor esquenta e cheiro de queimado","O cheiro é mais forte dentro ou fora do carro?",0,Diagnóstico
+"Sinto mais fora do carro","Você vê algum vazamento embaixo?",0,Diagnóstico
+"Sim, pinga um líquido verde","Correia da bomba d'água patinando ou bomba com defeito. Necessário troca do kit.",750,Arrefecimento
+
+"Carro esquenta no ar condicionado","Só esquenta com o ar ligado?",0,Diagnóstico
+"Sim, sem o ar funciona normal","A temperatura volta ao normal se desligar o ar?",0,Diagnóstico
+"Sim, baixa rapidinho","Problema na ventoinha auxiliar do ar condicionado. Necessário troca da ventoinha.",400,Ar Condicionado
+
+"Motor fervendo na subida","Acontece em qualquer subida?",0,Diagnóstico
+"Nas mais longas e íngremes","O nível de água está correto?",0,Diagnóstico
+"Sim, acabei de completar","Termostato travado ou bomba d'água com baixa pressão. Necessário troca dos componentes.",650,Arrefecimento
+
+"Marcador de temperatura oscilando","A oscilação é constante?",0,Diagnóstico
+"Sobe e desce o tempo todo","Já trocou o sensor de temperatura?",0,Diagnóstico
+"Não, é o original","Sensor de temperatura com defeito ou problema na válvula termostática.",350,Arrefecimento
+
+"Motor esquenta mesmo com água ok","O carro perde força quando esquenta?",0,Diagnóstico
+"Sim, parece que fraqueja","Já fez limpeza do radiador?",0,Diagnóstico
+"Nunca fiz limpeza","Sistema de arrefecimento obstruído. Necessário limpeza química do radiador e troca do líquido.",500,Arrefecimento
+
+"Câmbio está duro para passar marcha","Em quais marchas você sente mais dificuldade?",0,Diagnóstico
+"Principalmente na primeira e segunda","O problema é pior com o carro frio ou quente?",0,Diagnóstico
+"É pior quando está frio","A embreagem está no ponto normal?",0,Diagnóstico
+"Tenho que pisar até o fundo","Problema no sistema de embreagem. Necessário trocar kit completo (platô, disco e rolamento).",1200,Transmissão
+
+"Câmbio raspando ao trocar marchas","O barulho acontece em todas as marchas?",0,Diagnóstico
+"Mais na terceira e quarta","Você sente alguma resistência ao passar as marchas?",0,Diagnóstico
+"Sim, às vezes trava","Sincronizadores desgastados. Necessário revisar caixa de câmbio.",2800,Transmissão
+
+"Carro não engrena nenhuma marcha","A alavanca tem movimento livre?",0,Diagnóstico
+"Sim, mas não engrena","O pedal da embreagem está normal?",0,Diagnóstico
+"Está mais duro que o normal","Possível problema no garfo da embreagem ou cabo. Necessário verificação completa.",900,Transmissão
+
+"Câmbio pulando marcha sozinho","Em qual marcha isso acontece mais?",0,Diagnóstico
+"Na terceira ele pula pra segunda","Acontece em alguma situação específica?",0,Diagnóstico
+"Quando acelero mais forte","Desgaste nos dentes das engrenagens. Necessário abrir câmbio para reparo.",3200,Transmissão
+
+"Barulho no câmbio em ponto morto","O barulho é constante?",0,Diagnóstico
+"Sim, tipo um zumbido","Muda o barulho quando pisa na embreagem?",0,Diagnóstico
+"Diminui quando piso","Rolamento piloto com desgaste. Necessário troca do rolamento.",800,Transmissão
+
+"Vazamento de óleo no câmbio","Onde você percebe o vazamento?",0,Diagnóstico
+"Na parte da frente do câmbio","O óleo é escuro ou avermelhado?",0,Diagnóstico
+"É um óleo escuro e grosso","Retentor dianteiro do câmbio vazando. Necessário troca do retentor.",500,Transmissão
+
+"Câmbio automático dando trancos","Em que momento acontecem os trancos?",0,Diagnóstico
+"Nas trocas de marcha","O carro já apresentou alguma luz no painel?",0,Diagnóstico
+"Sim, às vezes acende a luz do câmbio","Módulo do câmbio com defeito ou baixa pressão de óleo. Necessário diagnóstico eletrônico.",1500,Transmissão
+
+"Câmbio manual rangendo","O rangido é ao soltar ou ao pisar na embreagem?",0,Diagnóstico
+"Quando solto o pedal","O barulho começou depois de algum reparo?",0,Diagnóstico
+"Depois que troquei a embreagem","Rolamento da embreagem mal instalado ou defeituoso. Necessário revisar instalação.",600,Transmissão
+
+"Câmbio automático não troca marchas","O carro fica preso em alguma marcha?",0,Diagnóstico
+"Sim, só fica na segunda","Já verificou o nível do óleo do câmbio?",0,Diagnóstico
+"Nunca verifiquei","Possível problema na válvula solenoide ou baixo nível de óleo. Necessário diagnóstico completo.",2000,Transmissão
+
+"Ruído forte ao engatar as marchas","O ruído é mais alto em alguma marcha específica?",0,Diagnóstico
+"Na primeira e ré é pior","Você sente alguma vibração junto com o ruído?",0,Diagnóstico
+"Sim, treme um pouco","Engrenagens com dentes desgastados. Necessário revisar caixa de câmbio.",2500,Transmissão
+
+"Embreagem patinando","Em que situação você percebe a patinação?",0,Diagnóstico
+"Quando subo ladeira","O carro demora a pegar velocidade?",0,Diagnóstico
+"Sim, parece que não tem força","Disco de embreagem gasto. Necessário trocar kit completo de embreagem.",1400,Transmissão
+
+"Troca de marchas com trancos","Os trancos acontecem em todas as marchas?",0,Diagnóstico
+"Mais nas marchas baixas","A embreagem está com o curso normal?",0,Diagnóstico
+"Acho que está mais alta","Regulagem incorreta da embreagem ou cabo danificado. Necessário ajuste e possível troca.",400,Transmissão
+
+"Barulho de batida na suspensão","Em que momento você escuta essa batida?",0,Diagnóstico
+"Quando passo em lombada","O barulho vem mais da frente ou de trás?",0,Diagnóstico
+"Mais da frente do lado direito","O carro está puxando para algum lado?",0,Diagnóstico
+"Sim, puxa um pouco pra direita","Bucha da bandeja quebrada. Necessário trocar as buchas e verificar alinhamento.",450,Suspensão
+
+"Rangido ao fazer curva","O rangido acontece em qualquer velocidade?",0,Diagnóstico
+"Mais quando faço curva devagar","O barulho piora quando o carro está cheio?",0,Diagnóstico
+"Sim, com mais peso range mais","Pivô ou bieleta desgastados. Necessário trocar o conjunto.",600,Suspensão
+
+"Barulho de toc-toc na roda","O barulho aumenta com a velocidade?",0,Diagnóstico
+"Sim, quanto mais rápido mais barulho","Você sente alguma vibração no volante?",0,Diagnóstico
+"Às vezes treme um pouco","Rolamento da roda com folga. Necessário trocar o rolamento.",380,Suspensão
+
+"Suspensão fazendo barulho de mola","O barulho é mais forte em qual situação?",0,Diagnóstico
+"Quando o carro está frio","Acontece mais ao passar em buracos?",0,Diagnóstico
+"Sim, e em ruas de paralelepípedo","Batente da mola quebrado ou mola trincada. Necessário trocar o conjunto.",750,Suspensão
+
+"Carro muito macio, batendo no chão","Em que situação você percebe mais?",0,Diagnóstico
+"Quando passa em quebra-molas","O carro demora a estabilizar depois dos buracos?",0,Diagnóstico
+"Sim, fica balançando bastante","Amortecedores vencidos. Necessário trocar os quatro amortecedores.",1200,Suspensão
+
+"Barulho de pancada seca na suspensão","O barulho acontece em que momento?",0,Diagnóstico
+"Quando viro o volante parado","Você sente algum jogo no volante?",0,Diagnóstico
+"Sim, tem uma folguinha","Coifa da homocinética rasgada ou junta quebrada. Necessário trocar homocinética.",550,Suspensão
+
+"Suspensão batendo em valetas","O carro está mais baixo de algum lado?",0,Diagnóstico
+"Sim, do lado esquerdo","Você percebe se o carro está desalinhado?",0,Diagnóstico
+"Puxa um pouco pro lado","Mola quebrada. Necessário trocar o par de molas.",600,Suspensão
+
+"Ruído ao passar em buraco","O ruído é metálico ou mais abafado?",0,Diagnóstico
+"É um barulho metálico","Acontece dos dois lados do carro?",0,Diagnóstico
+"Mais do lado direito","Bieleta da barra estabilizadora quebrada. Necessário trocar as bieletas.",280,Suspensão
+
+"Carro puxando para um lado","Puxa sempre para o mesmo lado?",0,Diagnóstico
+"Sim, sempre pra esquerda","Já fez alinhamento recentemente?",0,Diagnóstico
+"Faz uns 2 anos","Buchas desgastadas e desalinhamento. Necessário trocar buchas e alinhar.",520,Suspensão
+
+"Barulho de água dentro da roda","O barulho muda com a velocidade?",0,Diagnóstico
+"Sim, tipo uma batida em alta velocidade","Já trocou os amortecedores alguma vez?",0,Diagnóstico
+"Nunca troquei","Amortecedor vazando. Necessário trocar o par de amortecedores.",900,Suspensão
+
+"Suspensão muito dura","Ficou dura de repente ou aos poucos?",0,Diagnóstico
+"Foi ficando dura com o tempo","O carro faz barulho em lombadas?",0,Diagnóstico
+"Sim, bate forte embaixo","Amortecedores travados. Necessário trocar amortecedores e verificar molas.",1100,Suspensão
+
+"Barulho ao manobrar o carro","O barulho é tipo um estalo?",0,Diagnóstico
+"Sim, quando viro o volante todo","Já verificou a coifa da homocinética?",0,Diagnóstico
+"Não sei o que é isso","Junta homocinética ressecada. Necessário trocar a coifa e engraxar.",350,Suspensão

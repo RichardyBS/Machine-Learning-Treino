@@ -1,64 +1,55 @@
-## README.MD
-Modelo de IA para Diagnóstico Automotivo
-Objetivo:
+# 🚗 Modelo de IA para Diagnóstico Automotivo
 
-Este projeto tem como objetivo auxiliar os usuários a identificar possíveis problemas em seus veículos através de uma interface simples e intuitiva. O modelo de inteligência artificial foi desenvolvido utilizando técnicas de aprendizado de máquina para analisar descrições textuais de problemas automotivos e fornecer um diagnóstico preliminar e uma estimativa de custo para reparo.
+## 📋 Sobre o Projeto
+    Este projeto tem como objetivo auxiliar usuários a identificar possíveis problemas em seus veículos através de uma interface simples e intuitiva. O modelo de inteligência artificial foi desenvolvido utilizando técnicas de aprendizado de máquina para analisar descrições textuais de problemas automotivos e fornecer um diagnóstico preliminar e uma estimativa de custo para reparo.
 
+## 🔍 Características do Dataset
+    124 registros de dados estruturados
+    Múltiplos diálogos para treinamento do modelo
+    Foco em diagnóstico automotivo interativo
 
-ORDEM PARA CRIACAO DE CADA COISA
+## 🤖 Desempenho do Modelo
+    Acurácia atual: 67% Para verificar a acurácia: Execute train_model.py
 
-1. Comecei pelo Dataset.csv (/src/data)
-Objetivo: Garantir que os dados seram usados estão prontos e bem formatados para o treino do meu Machine Learn.
+## 🛠️ Tecnologias Utilizadas
+Backend: Python, Flask
+IA: Google Gemini API
+Processamento de Dados: Pandas, Scikit-learn
+API: REST
 
-2. Treinar o Modelo (/src/models)
-Objetivo: Treine e ajuste o modelo de Machine Learning.
+## 🚀 Como Executar
+1. Clone o repositório
 
-3. Implementar o Fluxo de Inferência (/src/ml)
-Objetivo: Criar um fluxo onde o modelo recebe novas entradas e faz inferências.
+        git clone https://github.com/RichardyBS/Machine-Learning-Sprint.git
 
-4. Integração com o Chatbot (/src/integration)
-Objetivo: Integrar o Watson Assistant com o modelo.
+2. Instale as dependências
 
-5. Banco de Dados (/src/database)
-Objetivo: Configure o banco de dados para armazenar resultados das inferências.
+        pip install pandas
+        
+        pip install scikit-learn
+        
+        pip install joblib
+        
+        pip install flask
+        
+        pip install flask-cors
+        
+        pip install google-generativeai
+        
+        pip install numpy
+        
+        pip install requests
 
-6. Front-End (/src/frontend)
-Objetivo: Conecte a interface do usuário para que o chatbot esteja acessível.
+3. Execute o modelo de treinamento:
 
-Ordem que estou seguindo para chegar ao final da entrega da porto
+        python src/models/train_model.py
 
-Dados → 2. Modelo → 3. Inferência → 4. Integração → 5. Banco de Dados → 6. Front-End
+4. Inicie o servidor:
 
-o arquivo dataset.csv possui 124 dados (contando com o nome de cada tabela)
-
-No Projeto utilizei o Gemini para realizar um diagnostico mais preciso
-
-a ideia e que o usuario consiga realizar o pre diagnostico e conseguir um pre orcamento
-
-
-Minhas Dificuldades durante o Projeto:
-
-Aumentar o Acurrancy do Modelo Treinado: tive um problema inicial pois meus dados estavam nao fazendo muito sentido com o que era pra ser entregue logo realizei uma mudanca completa no modelo utilizei tambem o treino gridsearch do multinomialNB por recomendacao do professor
-
-Conexao com a Api: A principio fiquei sem saber como faria para que meu modelo conversasse com a API do Gemini mais apos algumas buscas consegui utilizar a biblioteca Flask do Python para conseguir.
-
-Integrassao com o Watson: de Longe a unica coisa que eu realmente nao consegui fazer foi conectar meu projeto ao Watson por nao ter muito conhecimento eu acabei ficando preso tentei utilizar o Postman para fazer testes mais sem sucesso.
-
-
-## NPM INSTALL DO PROJETO
-
-pip install flask-cors
-pip install flask
-npm install axios
-npm install para baixar o node_modules
+        python src/app.py
 
 
-
-
-Grupo AutoCall - 1TDSPW
-
-Ruan Lima Silva - 558775
-
-Richardy Borges - -557883
-
-Henrique Izzi - 555413
+## 👥 Equipe AutoCall - 1TDSPW
+# 1. Richardy Borges - 557883
+# 2. Ruan Lima Silva - 558775
+# 3. Henrique Izzi - 555413

@@ -1,118 +1,139 @@
-from flask import Flask, request, jsonify, send_from_directory
-import pickle
+from flask import Flask, request, jsonify
+import joblib
 import pandas as pd
 from flask_cors import CORS
-from sklearn.feature_extraction.text import TfidfVectorizer
 import google.generativeai as genai
-import os
+import traceback
 
-# Configure a chave da API do Gemini
-genai.configure(api_key="AIzaSyADiEFwXSJqvmoigq7LUbrsQLoMoZXFSC4")  # Substitua pela sua chave API do Gemini
-
-app = Flask(__name__, static_folder="../src/frontend", template_folder="../src/frontend")
+app = Flask(__name__)
 CORS(app)
 
-# Carregar o modelo e o vetorizador
-model_path = 'C:/RichardyBS/Machine Learning/src/models/trained_model.pkl'
-vectorizer_path = 'C:/RichardyBS/Machine Learning/src/models/tfidf_vectorizer.pkl'
-csv_path = 'C:/RichardyBS/Machine Learning/src/data/dataset.csv'
+genai.configure(api_key="AIzaSyADiEFwXSJqvmoigq7LUbrsQLoMoZXFSC4")
 
-with open(model_path, 'rb') as model_file:
-    model = pickle.load(model_file)
-
-with open(vectorizer_path, 'rb') as vectorizer_file:
-    vectorizer = pickle.load(vectorizer_file)
-
-# Carregar dados do CSV
-data = pd.read_csv(csv_path)
-
-# Verificar colunas corretas
-print("Available columns in DataFrame:", data.columns)
-
-# Nomes das colunas
-column_name_solution = 'Solucoes'
-column_name_price = 'PrecoEstimado'
-
-if column_name_solution in data.columns and column_name_price in data.columns:
-    # Criar mapeamentos para soluções e preços
-    index_to_solution = dict(zip(data.index, data[column_name_solution]))
-    index_to_price = dict(zip(data.index, data[column_name_price]))
-else:
-    print(f"One or more required columns are missing.")
-    index_to_solution = {}
-    index_to_price = {}
-
-@app.route('/')
-def index():
-    return app.send_static_file('index.html')
-
-@app.route('/styles.css')
-def styles():
-    return send_from_directory(app.static_folder, 'styles.css')
-
-@app.route('/app.js')
-def script():
-    return send_from_directory(app.static_folder, 'app.js')
-
-@app.route('/infer', methods=['POST'])
-def infer():
-    user_input = request.json.get('text')
-    prediction = make_predictions(user_input)
-    return jsonify(prediction)
+try:
+    model = joblib.load('src/models/trained_model.pkl')
+    vectorizer = joblib.load('src/models/vectorizer.pkl')
+    df = pd.read_csv('src/data/dataset.csv')
+    print("Modelo, vetorizador e dataset carregados com sucesso!")
+except Exception as e:
+    print(f"Erro ao carregar arquivos: {str(e)}")
+    traceback.print_exc()
 
 @app.route('/diagnose', methods=['POST'])
 def diagnose():
-    user_input = request.json.get('message')
-    prediction = make_predictions(user_input)
-    return jsonify(prediction)
-
-def make_predictions(new_data):
-    global model, vectorizer
-    X_new = vectorizer.transform([new_data])
-    predictions = model.predict(X_new)
-
-    predicted_index = predictions[0]
-
-    if predicted_index in index_to_solution:
-        solution = index_to_solution[predicted_index]
-        price_estimate = index_to_price.get(predicted_index, "Não disponível")
-
-        # Use a API do Gemini para aprimorar a resposta
-        gemini_response = get_gemini_response(new_data, solution)
-        cost_estimate = f"Custo estimado: R${price_estimate},00"  # Ajuste para o formato necessário
-    else:
-        gemini_response = "Problema não reconhecido. Recomendamos que você visite uma oficina Porto Seguro para uma análise detalhada."
-        cost_estimate = "Custo estimado: Não disponível"
-
-    return {
-        'problem': f"Problema identificado: {new_data}",
-        'solution': solution,
-        'cost': cost_estimate,
-        'gemini_response': gemini_response
-    }
-
-def get_gemini_response(problem_description, solution):
-    prompt = (  f"Um cliente relatou o seguinte problema no veículo: '{problem_description}'. "
-                f"A solução sugerida pelo modelo é: '{solution}'. "
-                "Forneça uma resposta detalhada, explicando o que pode estar causando o problema, "
-                "a solução recomendada e um orçamento estimado para o reparo. "
-                "Além disso, recomende que o cliente visite uma oficina Porto Seguro para uma análise detalhada.")
-
-    model = genai.GenerativeModel("gemini-1.5-flash")
-    
     try:
-        response = model.generate_content(
-            prompt,
-            generation_config=genai.types.GenerationConfig(
-                max_output_tokens=150,
-                temperature=0.7,
-            )
-        )
-        print("Gemini Response:", response.text)  # Log da resposta
-        return response.text.strip()
+        user_input = request.json.get('message')
+        if not user_input:
+            return jsonify({'error': 'Mensagem não fornecida'}), 400
+
+        print(f"Recebida mensagem: {user_input}")
+
+        X_new = vectorizer.transform([user_input])
+        
+        predicted_category = model.predict(X_new)[0]
+        print(f"Categoria prevista: {predicted_category}")
+
+        relevant_data = df[df['Categoria'] == predicted_category].iloc[0]
+        
+        response_data = {
+            'problem': user_input,
+            'category': str(predicted_category),
+            'solution': str(relevant_data['Solucoes']),
+            'price_estimate': f"R$ {relevant_data['PrecoEstimado']:.2f}",
+        }
+
+        prompt = f"""
+        Como mecânico experiente, continue este diálogo de diagnóstico automotivo:
+
+        Cliente: "{user_input}"
+        Mecânico: "{relevant_data['Solucoes']}"
+
+        Forneça uma breve análise técnica (máximo 3 parágrafos) incluindo:
+        1. Possíveis causas do problema
+        2. Riscos imediatos
+        3. Próximo passo recomendado
+
+        Mantenha a resposta curta e focada no diagnóstico inicial.
+        """
+        
+        model_ai = genai.GenerativeModel("gemini-1.5-flash")
+        gemini_response = model_ai.generate_content(prompt)
+        
+        response_data['detailed_analysis'] = gemini_response.text
+        
+        print("Resposta gerada com sucesso!")
+        return jsonify(response_data)
+
     except Exception as e:
-        print(f"Error generating response: {e}")
-        return "Erro ao gerar resposta com a API Gemini."
+        print(f"Erro no processamento: {str(e)}")
+        traceback.print_exc()
+        return jsonify({
+            'error': 'Erro no processamento',
+            'details': str(e)
+        }), 500
+
+@app.route('/')
+def home():
+    return """
+    <html>
+        <head>
+            <title>Diagnóstico Automotivo</title>
+            <style>
+                body { font-family: Arial, sans-serif; margin: 20px; }
+                .container { max-width: 800px; margin: 0 auto; }
+                input { padding: 10px; width: 300px; margin-right: 10px; }
+                button { padding: 10px 20px; }
+                #result { margin-top: 20px; }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <h2>Diagnóstico Automotivo</h2>
+                <input type="text" id="problem" placeholder="Descreva o problema do carro">
+                <button onclick="sendDiagnosis()">Diagnosticar</button>
+                <div id="result"></div>
+
+                <script>
+                    async function sendDiagnosis() {
+                        try {
+                            const problem = document.getElementById('problem').value;
+                            if (!problem) {
+                                alert('Por favor, descreva o problema do carro');
+                                return;
+                            }
+
+                            const response = await fetch('/diagnose', {
+                                method: 'POST',
+                                headers: {
+                                    'Content-Type': 'application/json'
+                                },
+                                body: JSON.stringify({ message: problem })
+                            });
+
+                            const data = await response.json();
+                            
+                            if (data.error) {
+                                document.getElementById('result').innerHTML = `<p style="color: red">Erro: ${data.error}</p>`;
+                                return;
+                            }
+
+                            document.getElementById('result').innerHTML = `
+                                <h3>Categoria: ${data.category}</h3>
+                                <p><strong>Solução:</strong> ${data.solution}</p>
+                                <p><strong>Preço Estimado:</strong> ${data.price_estimate}</p>
+                                <p><strong>Análise Detalhada:</strong></p>
+                                <p>${data.detailed_analysis}</p>
+                            `;
+                        } catch (error) {
+                            console.error('Erro:', error);
+                            document.getElementById('result').innerHTML = `<p style="color: red">Erro ao processar a requisição</p>`;
+                        }
+                    }
+                </script>
+            </div>
+        </body>
+    </html>
+    """
 
 if __name__ == '__main__':
     app.run(debug=True)
